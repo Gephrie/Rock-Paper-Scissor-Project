@@ -74,10 +74,10 @@ function game() {
             }
             else {
                 computerSelection = "SCISSORS"
-            };;
-        
-        
-        console.log(playRound(playerSelection, computerSelection)) }
+            };
+             playerChoice = prompt("Type Rock, Paper, or Scissors");
+             playerSelection = playerChoice.toUpperCase(); 
+             console.log(playRound(playerSelection, computerSelection)) }
     else { return "Time to count Score!"
     }
 }}
